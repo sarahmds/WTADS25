@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hollow Knight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="src/hollow.css" rel="stylesheet" type="text/css"/>
+  <link href="src/imagens/icons/knight-logo.svg" rel="icon">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+  <div class="container">
+    
+  <header>
+    <div>
+     <figure>
+       <img src="src/imagens/icons/knight-logo.svg">
+       <h1>HOLLOW KNIGHT</h1>
+     </figure>
+       
+       <div class="pesquisa">
+         <form class="pesquisar">
+           <input id="img_imput" type="image" placeholder="Pesquisar" alt="icone de pesquisa" src="src/imagens/icons/search.svg"> 
+           <input id="pesq_input"type="search" placeholder="Pesquisar">
+         </form>
+       </div>
+    </div>
+   
+
+   <nav>
+     <ol>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="pacotes.html">Pacotes</a></li>
+       <li><a href="criadores.html">Criadores</a></li>
+       <li><a href="baixar.html" class="baixar">Baixar</a></li>
+       <li><a href="https://www.teamcherry.com.au" target="_blank"><img src="src/imagens/icons/team-cherry.svg" alt="Logo team cherry"></a></li>
+     </ol>
+   </nav>
+   
+ </header>
+
+
+ <section id="destaque">
+   <div class="fixo">
+     <div id="controles">
+       <a href="javascript:backSlide()"><img class="seta" src="src/imagens/icons/left.svg" alt="Seta para a esquerda"></a>
+       <img src="src/imagens/icons/knight-logo.svg" alt="Logo do site">
+       <a href="javascript:nextSlide()"><img class="seta" src="src/imagens/icons/right.svg" alt="Seta para a direita"></a>
+     </div>
+
+     <h1 class="titulo">Hollow Knight</h1>
+     <p class="texto">Abaixo da cidade de Dirtmouth repousa um vasto e antigo reino. Muitos são atraídos em busca de riquezas, glória ou respostas para antigos segredos.</p>
+   </div>
+ 
+   <div class="carousel">
+     <div class="slider-container">
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video1.mp4" type="video/mp4">
+         </video>
+       </div>
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video2.mp4" type="video/mp4">
+         </video>
+       </div>
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video3.mp4" type="video/mp4">
+         </video>
+       </div>
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video4.mp4" type="video/mp4">
+         </video>
+       </div>
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video5.mp4" type="video/mp4">
+         </video>
+       </div>
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video7.mp4" type="video/mp4">
+         </video>
+       </div>
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video6.mp4" type="video/mp4">
+         </video>
+       </div>
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video0.mp4" type="video/mp4">
+         </video>
+       </div>      
+       <div class="slide">
+         <video autoplay muted loop>
+           <source src="src/videos/video8.mp4" type="video/mp4">
+         </video>
+       </div>
+     </div>
+   </div>
+   
+ </section>
+
+ <main>
+   <section class="apresentacao">
+     <figure class="aviso">
+       <img src="src/imagens/icons/cart.svg" alt="Carta do escritor de mapas.">
+       <figcaption class="texto">Nós não fazemos vendas em nosso site, apenas indexamos as lojam que possuem nosso jogo no mercado.</figcaption>
+     </figure>
+
+     <article>
+       <header>
+         <h1 class="titulo">Desbrave as Profundezas de um <span>Reino Esquecido</span></h1>
+         <p class="texto">Abaixo da cidade desvanecente de Dirtmouth repousa um vasto e antigo reino. Muitos são atraídos em busca de riquezas, glória ou respostas para antigos segredos.</p>
+       </header>
+       <picture>
+        <source media="(max-width: 884px)" srcset="src/imagens/outras/Celular-Hornet&Knight.svg" alt="Hornet e Hollow Knight lado a lado">
+
+        <img src="src/imagens/outras/Hornet&Knight.svg" alt="Hornet e Hollow Knight lado a lado">
+      </picture>
+     </article>
+     
+
+     <article>
+       <div id="player-trailer"></div>
+       <header>
+         <h2 class="titulo">Use suas <span>Habilidades e Reflexos</span> para Sobreviver</h2>
+         <p class="texto">Hollow Knight é um desafiador jogo de ação e aventura em 2D. Você explorará cavernas sinuosas, enfrentará criaturas corrompidas e escapará de armadilhas, tudo para resolver um antigo mistério há muito tempo oculto.</p>
+       </header>
+     </article>
+
+
+   </section>
+
+   <section id="destaque2">
+
+     <div class="texto-banner2">
+       <h1 class="titulo">Arte Evocativa<br> Desenhada à Mão</h1>
+       <p class="texto">O mundo de Hollow Knight é trago à vida em detalhes<br> vívidos e atmosféficos, suas cavernas repletas de criaturas<br> bizarras e aterrorizantes, cada uma animada à mão em<br> um estilo 2D tradicional!</p>
+     </div>
+ 
+     <div class="container-imagem">
+       <img src="src/imagens/background/background-caverna-definitivo.svg" alt="Imagem em Movimento" id="movendo">
+     </div>
+     
+   </section>
+
+   <section class="pacotes">
+     <h1 class="titulo">4 Grandes Pacotes de <span>Conteúdo Gratuito</span>!</h1>
+     <ol>
+
+        <li>
+          <a href="#">
+                <div>
+                    <figure><img src="src/imagens/icons/Sonhos-esquecidos.svg" alt="Sonhos esquecidos"></figure>
+                    <h2 class="titulo">Sonhos<br>esquecidos</h2>
+                    <p class="texto">Explore memórias esquecidas por todos em novas missões com uma trilha sono hipnotizante!</p>
+                </div>
+                <figure class="figure-seta"><img src="src/imagens/icons/seta-fina.svg" alt="Seta fina para direita"></figure>
+            </a>   
+        </li>
+
+        <li>
+          <a href="#">
+              <div>
+                  <figure><img src="src/imagens/icons/trupe-grimm.svg" alt="Trupe Grimm"></figure>
+                  <h2 class="titulo">A trupe<br>Grimm</h2>
+                  <p class="texto">Participe do espetáculo orquestral da Trupe Grimm enfrentando vários desafios ardentes.</p>
+              </div>
+              <figure class="figure-seta"><img src="src/imagens/icons/seta-fina.svg" alt="Seta fina para direita"></figure>
+          </a>   
+        </li>
+
+
+      <li>
+        <a href="#">
+            <div>
+                <figure><img src="src/imagens/icons/sangue-vital.svg" alt="Sangue vital"></figure>
+                <h2 class="titulo">Sangue<br>vital</h2>
+                <p class="texto">Descubra os segredos vitais e embarque acompanhado por um trilha sonora pulsante.</p>
+            </div>
+            <figure class="figure-seta"><img src="src/imagens/icons/seta-fina.svg" alt="Seta fina para direita"></figure>
+        </a>   
+      </li>
+
+    <li>
+      <a href="#">
+          <div>
+              <figure><img src="src/imagens/icons/deus-mestre.svg" alt="Deus mestre"></figure>
+              <h2 class="titulo">Deus<br>mestre</h2>
+              <p class="texto">Assuma seu lugar entre os Deuses. Um desafio lendário com vários novos personagens.</p>
+          </div>
+          <figure class="figure-seta"><img src="src/imagens/icons/seta-fina.svg" alt="Seta fina para direita"></figure>
+      </a>   
+    </li>
+
+
+  </ol>
+   </section>
+   <section class="soundtracks">
+     <article>
+       <header>
+        <h1 class="titulo">Uma Trilha Orquestral <span>Assombrosa</span></h1>
+        <p class="texto">Composta e produzida por Christopher Larkin, a trilha épica de Hollow Knight é entrelaçada ao longo do jogo, ecoando a tristeza de uma civilização majestosa levada à ruína.</p>
+       </header>
+       <a class="botao" href="https://christopherlarkin.bandcamp.com/album/hollow-knight-original-soundtrack">Adquira a Trilha Sonora Oficial</a>
+      </article>
+     <ol>
+       <li>
+         <img class="banner" src="src/imagens/outras/trilha-hollow.jpg">
+         <div>
+            <a class="botao" href="https://open.spotify.com/intl-pt/artist/13kMpt8IdcHcdxPLcJrgU2">Ouvir agora</a>
+            <figure>
+              <img src="src/imagens/icons/headset-hollow.svg">
+              <img src="src/imagens/icons/spotfy-hollow.svg">
+            </figure>
+         </div>
+          
+       </li>
+       <li>
+        <img class="banner" src="src/imagens/outras/trilha-nightmare.jpg">
+        <div>
+           <a class="botao" href="https://open.spotify.com/intl-pt/artist/13kMpt8IdcHcdxPLcJrgU2">Ouvir agora</a>
+           <figure>
+            <img src="src/imagens/icons/headset-grimm.svg">
+            <img src="src/imagens/icons/spotfy-hollow.svg">
+           </figure>
+        </div>
+         
+      </li>
+     </ol>
+   </section>
+   <!----
+
+   <section class="parceiros">
+     <h1 data-aos="fade-up">Visite também nossos amigos</h1>
+     <ol data-aos="fade-up">
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/fangamer.svg" alt="Fangamer">
+         </figure>
+         <p>Larvas de pelúcia! Cavaleiros de pelúcia! Camisetas Rad e muito mais</p>
+         <p><a href="https://www.fangamer.com/collections/hollow-knight" target="_blank">FANGAMER.COM</a></p>
+       </li>
+   
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/logo yetee.svg" alt="Yetee">
+         </figure>
+         <p>Camisetas elegantes! Pinos elegantes! O Yetee mais legal e amigável que conhecemos!</p>
+         <p><a href="https://theyetee.com/collections/hollow-knight" target="_blank">THEYETEE.COM</a></p>
+       </li>
+   
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/logoghost.svg" alt="Ghostramp">
+         </figure>
+         <p>Lançamentos limitados de vinil!</p>
+         <p><a href="https://store.ghostramp.com/collections/videogames" target="_blank">GHOSTRAMP.COM</a></p>
+       </li>
+     </ol>
+   </section>
+
+   <section class="imprensa">
+     <h1 data-aos="fade-up">Cobertura de imprensa</h1>
+     <figure data-aos="fade-up">
+       <img src="src/imagens/Logos/imprensa.svg">
+     </figure>
+
+     <div data-aos="fade-up" class="kitpress">
+       <figure><img src="src/imagens/charactersbanner.svg"></figure>
+       <div>
+         <p>Se você quiser escrever sobre Hollow Knight, temos um Press Kit cheio de vídeos, fatos e imagens.</p>
+         <span><p>Dúvidas? Entre em contato: press (at) teamcherry.com.au</p></span>
+         <p><a href="https://drive.google.com/drive/folders/1SPCRaalJJepKYOQ4fdxZEzqNukJiUQCo" target="_blank">VISITE O KIT DE IMPRENSA</a></p>
+       </div>
+       
+     </div>
+   </section>
+
+   <section class="destaque3">
+     <h1 data-aos="fade-up">Media de avaliações do jogo<br> em multiplataformas</h1>
+     <ol data-aos="fade-up">
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/steam.svg">
+         </figure>
+         <h2>97%</h2>
+         <p>310k análises</p>
+       </li>
+
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/gogcom.svg">
+         </figure>
+         <h2>94%</h2>
+         <p>De aprovação</p>
+       </li>
+
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/PS4.svg">
+         </figure>
+         <h2>93.8%</h2>
+         <p>51k de votos</p>
+       </li>
+
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/humblestore.svg">
+         </figure>
+         <h2>93%</h2>
+         <p>Média das reviews</p>
+       </li>
+
+       <li>
+         <figure>
+           <img src="src/imagens/Logos/xbox.svg">
+         </figure>
+         <h2>92%</h2>
+         <p>5.3K de votos.</p>
+       </li>
+       
+     </ol>
+     
+   </section> -->
+ </main>
+ 
+ <footer>
+   <div>
+    <p class="texto">Siga-nos</p>
+    <ol>
+      <li><a href="https://www.youtube.com/channel/UCZS2K8ZsUmujTuj3cNMyBSA"><img src="src/imagens/icons/youtube.svg" alt="Youtube"></a></li>
+      <li><a href="https://x.com/TeamCherryGames"><img src="src/imagens/icons/x.svg" alt="Twitter"></a></li>
+      <li><a href="https://www.facebook.com/teamcherrygames/"><img src="src/imagens/icons/facebook.svg" alt="facebook"></a></li>
+    </ol>
+   </div>
+
+   
+  <nav>
+    <div>
+      <figure>
+        <img src="src/imagens/icons/knight-logo.svg">
+        <h1>HOLLOW KNIGHT</h1>
+      </figure>
+      <ol>
+        <li><a href="index.html">Home</a></li>
+         <li><a href="pacotes.html">Pacotes</a></li>
+         <li><a href="criadores.html">Criadores</a></li>
+         <li><a href="baixar.html">Baixar</a></li>
+      </ol>
+    </div>
+    <ol>
+      <li><a href="https://store.steampowered.com/app/367520/Hollow_Knight/"><img src="src/imagens/icons/steam.svg" alt="Steam"></a></li>
+      <li><a href="https://www.teamcherry.com.au/"><img src="src/imagens/icons/team-cherry-branco.png" alt="Team cherry"></a></li>
+    </ol>
+  </nav>
+   
+ </footer>
+  </div>
+
+</body>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="src/knight.js"></script>
+</html>
